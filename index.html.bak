@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Jose Aldana - Freelance Programmer</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Jose Aldana</h1>
+      <h2 class="header-subtitle">Freelance Programmer</h2>
+    </header>
+    <section class="about">
+      <h3 class="section-title">About Me</h3>
+      <p class="section-description">
+        Hi, I'm Jose Aldana and I'm a freelancer programmer specialized in front-end development and video game development. I have a passion for creating beautiful and functional websites and games. Let's work together and bring your ideas to life!
+      </p>
+    </section>
+    <section class="services">
+      <h3 class="section-title">My Services</h3>
+      <ul class="services-list">
+        <li class="services-item">Front-end Development</li>
+        <li class="services-item">Video Game Development</li>
+      </ul>
+    </section>
+    <section class="contact">
+      <h3 class="section-title">Get In Touch</h3>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+        <textarea placeholder="Your message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <p class="footer-copyright">&copy; Jose Aldana 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
